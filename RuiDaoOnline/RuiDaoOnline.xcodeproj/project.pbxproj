@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B0C5A61B41219E005B69D0 /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B0C5A51B41219E005B69D0 /* Page2ViewController.m */; };
 		202CE9371B40E59E0037A4F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 202CE9361B40E59E0037A4F7 /* main.m */; };
 		202CE93A1B40E59E0037A4F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 202CE9391B40E59E0037A4F7 /* AppDelegate.m */; };
 		202CE93D1B40E59E0037A4F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 202CE93C1B40E59E0037A4F7 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B0C5A41B41219E005B69D0 /* Page2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2ViewController.h; sourceTree = "<group>"; };
+		04B0C5A51B41219E005B69D0 /* Page2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2ViewController.m; sourceTree = "<group>"; };
 		202CE9311B40E59E0037A4F7 /* RuiDaoOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuiDaoOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		202CE9351B40E59E0037A4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		202CE9361B40E59E0037A4F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				202CE9411B40E59E0037A4F7 /* Images.xcassets */,
 				202CE9431B40E59E0037A4F7 /* LaunchScreen.xib */,
 				202CE9341B40E59E0037A4F7 /* Supporting Files */,
+				04B0C5A41B41219E005B69D0 /* Page2ViewController.h */,
+				04B0C5A51B41219E005B69D0 /* Page2ViewController.m */,
 			);
 			path = RuiDaoOnline;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				202CE93D1B40E59E0037A4F7 /* ViewController.m in Sources */,
 				202CE93A1B40E59E0037A4F7 /* AppDelegate.m in Sources */,
+				04B0C5A61B41219E005B69D0 /* Page2ViewController.m in Sources */,
 				202CE9371B40E59E0037A4F7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 				202CE9561B40E59E0037A4F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		202CE9571B40E59E0037A4F7 /* Build configuration list for PBXNativeTarget "RuiDaoOnlineTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				202CE9591B40E59E0037A4F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
